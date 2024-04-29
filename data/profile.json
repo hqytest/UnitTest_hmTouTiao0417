@@ -1,0 +1,7 @@
+{
+  "comment": "查看账户信息成功",
+  "url":"http://api-toutiao-web.itheima.net/mp/v1_0/user/profile",
+  "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDUwNTMzMDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.nCxDEXAQ9wd0_f8yBJ8SYnevP72olcMh4krVV0UsGfQ",
+  "expect_result": "OK",
+  "status_code":200
+}

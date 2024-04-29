@@ -1,0 +1,26 @@
+{
+  "login_001": {
+    "comment": "登录成功",
+    "url": "http://api-toutiao-web.itheima.net/mp/v1_0/authorizations",
+    "mobile": "12011111111",
+    "code": "246810",
+    "expect_result": "OK",
+    "status_code": 201
+  },
+  "login_002": {
+    "comment": "账号不对",
+    "url": "http://api-toutiao-web.itheima.net/mp/v1_0/authorizations",
+    "mobile": "12011111112",
+    "code": "246810",
+    "expect_result": "Please verify your real information in app.",
+    "status_code": 403
+  },
+  "login_003": {
+    "comment": "验证码不对",
+    "url": "http://api-toutiao-web.itheima.net/mp/v1_0/authorizations",
+    "mobile": "12011111111",
+    "code": "24681",
+    "expect_result": {"code": "Invalid params."},
+    "status_code": 400
+  }
+}

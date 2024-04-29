@@ -1,0 +1,6 @@
+{
+  "comment": "查看内容列表成功",
+  "url":"http://api-toutiao-web.itheima.net/mp/v1_0/channels",
+  "expect_result": "OK",
+  "status_code":200
+}
